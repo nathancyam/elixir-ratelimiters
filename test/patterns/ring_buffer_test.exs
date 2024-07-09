@@ -16,7 +16,7 @@ defmodule Patterns.RingBufferTest do
     %{pid: pid}
   end
 
-  test "dsfs", %{pid: pid} do
+  test "go around the buffer and try", %{pid: pid} do
     tasks =
       for i <- 0..10 do
         Task.async(fn ->
