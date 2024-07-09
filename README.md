@@ -1,21 +1,13 @@
 # Patterns
 
-**TODO: Add description**
+An assortment of rate limiter patterns implemented in Elixir.
 
-## Installation
+Includes:
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `patterns` to your list of dependencies in `mix.exs`:
+- Leaky bucket
+- Ring buffer
 
-```elixir
-def deps do
-  [
-    {:patterns, "~> 0.1.0"}
-  ]
-end
-```
+## Prior Art
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/patterns>.
-
+- HackerNews entry: https://news.ycombinator.com/item?id=14100254
+- https://akoutmos.com/post/rate-limiting-with-genservers/
